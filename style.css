@@ -1,0 +1,156 @@
+/************marqee text***********/
+.mar_wrapper {
+  background-color: #ff874d;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.marq_txt {
+  color: #fff !important;
+  font-size: 46px;
+}
+.marqee_inside {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.mar_wid {
+  width: 191px;
+  padding: 0 7px;
+}
+.Marquee {
+  overflow: hidden;
+  /* cursor: url("./images/hs1.png"), pointer !important; */
+}
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 250px;
+  overflow-x: hidden;
+  /* cursor: url("./images/hs1.png"), pointer !important; */
+
+  /* direction: ltr; */
+}
+.Marquee-content {
+  display: flex;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 8s linear infinite;
+  /* cursor: url("./images/hs1.png"), pointer !important; */
+}
+.Marquee-content:hover {
+  animation-play-state: paused;
+  /* cursor: url("./images/hs1.png"), pointer !important; */
+}
+
+.Marquee-tag:hover {
+  /* background: rgba(255, 255, 255, 0.5); */
+  /* cursor: pointer; */
+  cursor: url("./images/hs1.png"), pointer !important;
+}
+.Marquee-tag {
+  /* width: 200px; */
+  margin: 0 0.5em;
+  padding: 1.5rem;
+  /* background: rgba(255, 255, 255, 0.1); */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  cursor: url("./images/hs1.png"), pointer !important;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.left {
+  left: 0px !important;
+}
+.bc {
+  border: 1px solid white;
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .sooper {
+    right: -80px !important;
+    top: -80px !important;
+  }
+}
+@media (max-width: 768px) {
+  .gr {
+    background: #fff !important;
+  }
+  .tb {
+    color: black !important;
+  }
+  .bc {
+    border: 1px solid #000000;
+  }
+}
+#SECTION3 {
+  height: 600px !important;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mar_wid {
+  width: 134px;
+  padding: 0 7px;
+}
+.marqee_inside {
+  display: flex;
+  gap: 0;
+  align-items: center;
+}
+img.social {
+  width: 81px;
+  margin: 30px 9px;
+}
+
+.copy {
+  font-size: 18px;
+  color: black;
+}
+.marqee {
+  border-top: 3px solid #52321a;
+  border-bottom: 3px solid #52321a;
+}
+
+@media screen and (max-width: 768px) {
+  #HEADLINE3 > .ladi-headline {
+    font-family: MmUZGINWEZTBjNjgxNSzcCyMDIMDIyOTAxMzEMiazJuaSdGY;
+    font-size: 106.96px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  #SECTION3 {
+    height: 800px;
+  }
+  .marqee {
+    opacity: 0;
+
+    border-top: 3px solid #52321a;
+    border-bottom: 3px solid #52321a;
+  }
+  img.social {
+    width: 49px;
+    margin: 30px 9px;
+  }
+
+  .copy {
+    font-size: 16px;
+    color: black;
+  }
+}
